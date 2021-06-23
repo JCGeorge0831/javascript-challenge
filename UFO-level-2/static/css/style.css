@@ -98,7 +98,7 @@ select {
   padding: 20px;
   margin: 0;
   background: black;
-  background-image: url("../images/ufo_sight.jpg");
+  background-image: url("../images/sky.jpg");
   background-attachment: fixed;
   background-position: bottom center;
   background-size: cover;
@@ -108,13 +108,12 @@ select {
   margin-top: 200px;
   font-size: 0.1rem;
   animation: title 1.2s forwards linear;
-  color: navy;
+  color: red;
 }
 
 .hero p {
   font-size: 2rem;
-  font-weight: bolder;
-  opacity: 1;
+  opacity: 0;
   animation: subtitle 1.2s forwards linear;
   animation-delay: 1.2s;
   color: red;
